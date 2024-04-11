@@ -5,4 +5,4 @@ fs.appendFileSync("./main.js",`const temp =document.createElement("div")
 temp.innerHTML="ceci est une div ajoutée par texte"
 temp.innerHTML+="<img src=\\\"base64:`)
 fs.appendFileSync("./main.js",fs.readFileSync('./img.svg').toString("base64"))
-fs.appendFileSync("./main.js",">\"document.getElementById('content').appendChild(temp)")
+fs.appendFileSync("./main.js",">\"\ndocument.getElementById('content').appendChild(temp)")
